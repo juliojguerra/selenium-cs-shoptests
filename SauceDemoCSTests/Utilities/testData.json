@@ -1,0 +1,10 @@
+﻿{
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "wrong_username": "wrong_user",
+    "wrong_password": "wrong_pass",
+    "product_name": "Sauce Labs Bike Light",
+    "filter_option": "Price (low to high)",
+    "fleece_jacket_name": "Sauce Labs Fleece Jacket",
+    "onesie_name": "Sauce Labs Onesie"
+}
