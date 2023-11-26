@@ -10,7 +10,7 @@ namespace SauceDemoCSTests.PageObjects
 		private IWebDriver driver;
 
         By byPageTitle = By.CssSelector(".title");
-        By byProductCardName = By.CssSelector("a div[class='inventory_item_name']");
+        By byProductCardName = By.CssSelector("a div[class*='inventory_item_name']");
         By byAddToCartButton = By.CssSelector("button[class*='btn_primary']");
         By byProductPrice = By.CssSelector("div[class='inventory_item_price']");
         By byRemoveButton = By.XPath("//button[contains(@data-test, 'remove-')]");
